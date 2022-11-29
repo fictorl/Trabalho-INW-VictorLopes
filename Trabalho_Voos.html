@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Trabalho.css"/>
+    <style>
+        table, td, th{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table th{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Página de Voos</h1>
+    <section>
+        <form align="center">
+            <fieldset>
+                <b><label for="incluir">Incluir Vôo</label></b>
+                <a href="Trabalho_Voos_incluir.html">Incluir</a><br>
+                <b><label for="excluir">Excluir registro do Vôo</label></b>
+                <input type="text" name="excluir" id="registro">
+                <input type="button" value="Excluir"> <br>
+                <b><label for="alterar">Alterar registro do Vôo</label></b>
+                <input type="text" name="alterar" id="registro">
+                <input type="button" value="Alterar">
+                <input type="button" value="Salvar alteração"> <br>
+                <b><label for="filtro">Filtro registro do Vôo</label></b>
+                <input type="text" name="filtro" id="registro">
+                <input type="button" value="Listar - 1">
+                <input type="button" value="Listar - Todos"> <br>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <article>
+        <table border="1px" align="center">
+            <tr id="cabeçalho">
+                <th>Numero do Voo</th>
+                <th>Cidade Origem</th>
+                <th>Cidade Destino</th>
+                <th>Distância</th>
+                <th>Tempo médio</th>
+                <th>Aeronave</th>
+                <th>Escalas</th>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>Campinas</td>
+                <td>Maceió</td>
+                <td>2400kM</td>
+                <td>2h30m</td>
+                <td>Airbus A321</td>
+                <td>XXX-XXX</td>
+            </tr>
+            <tr>
+                <td>456</td>
+                <td>São Paulo</td>
+                <td>Rio de Janeiro</td>
+                <td>436kM</td>
+                <td>30m</td>
+                <td>EmbraerERJ-175</td>
+                <td>YYY-YYY</td>
+            </tr>        
+        </table>
+    </article>
+    <footer>
+        <h3>Desenvolvido por Victor Lopes de Oliveira, Aluno INW- Sergio (2022.2)</h3>
+    </footer>
+</body>
+</html>

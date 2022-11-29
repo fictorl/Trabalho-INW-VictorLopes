@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Viagens</title>
+    <link rel="stylesheet" href="Trabalho.css"/>
+    <style>
+        table, td, th{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table th{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Página de Viagens</h1>
+    <section>
+        <form align="center">
+            <fieldset>
+                <b><label for="incluir">Incluir Viagem</label></b>
+                <a href="Trabalho_Viagem_Incluir.html">Incluir</a><br>
+                <b><label for="excluir">Excluir registro de Viagem</label></b>
+                <input type="text" name="excluir" id="registro">
+                <input type="button" value="Excluir"> <br>
+                <b><label for="alterar">Alterar registro de Viagem</label></b>
+                <input type="text" name="alterar" id="registro">
+                <input type="button" value="Alterar">
+                <input type="button" value="Salvar alteração"> <br>
+                <b><label for="filtro">Filtro registro de Viagem</label></b>
+                <input type="text" name="filtro" id="registro">
+                <input type="button" value="Listar - 1">
+                <input type="button" value="Listar - Todos"> <br>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <article>
+        <table border="1px" align="center">
+            <tr>
+                <th>Numero do Voo</th>
+                <th>Piloto</th>
+                <th>Data de Saída</th>
+                <th>Hora de Saída</th>
+                <th>Data de Chegada</th>
+                <th>Hora de Chegada</th>
+                <th>Ocorrências</th>
+                <th>Funcão-Piloto</th>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>Emerson</td>
+                <td>10/10/10</td>
+                <td>22:00h</td>
+                <td>11/10/10</td>
+                <td>01:00h</td>
+                <td>BR-210</td>
+                <td>XXXX-XXXX</td>
+            </tr>
+            <tr>
+                <td>4567</td>
+                <td>Joana</td>
+                <td>11/11/11</td>
+                <td>08:30h</td>
+                <td>11/11/11</td>
+                <td>09:00h</td>
+                <td>BR-109</td>
+                <td>YYYY-YYYY</td>
+            </tr>        
+        </table>
+    </article>
+    <footer>
+        <h3>Desenvolvido por Victor Lopes de Oliveira, Aluno INW- Sergio (2022.2)</h3>
+    </footer>
+</body>
+</html>

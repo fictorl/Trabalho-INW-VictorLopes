@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página dos Pilotos</title>
+    <link rel="stylesheet" href="Trabalho.css"/>
+    <style>
+        table, td, th{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table th{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Pagina de Pilotos</h1>
+    <section>
+        <form align="center">
+            <fieldset>
+                <b><label for="incluir">Incluir Piloto</label></b>
+                <a href="Trabalho_Piloto_Incluir.html">Incluir</a><br>
+                <b><label for="excluir">Registro do Piloto</label></b>
+                <input type="text" name="excluir" id="registro">
+                <input type="button" value="Excluir"> <br>
+                <b><label for="alterar">Alterar registro do Piloto</label></b>
+                <input type="text" name="alterar" id="registro">
+                <input type="button" value="Alterar">
+                <input type="button" value="Salvar alteração"> <br>
+                <b><label for="filtro">Filtro registro do Piloto</label></b>
+                <input type="text" name="filtro" id="registro">
+                <input type="button" value="Listar - 1">
+                <input type="button" value="Listar - Todos"> <br>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <article>
+        <table border="1px" align="center">
+            <tr>
+                <th>Registro do Piloto</th>
+                <th>Nome</th>
+                <th>Data de Nascimento</th>
+                <th>Sexo</th>
+                <th>E-mails</th>
+                <th>Telefones</th>
+                <th>Cursos de Especialização</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>XXXX</td>
+                <td>01/01/00</td>
+                <td>M</td>
+                <td>x@x.com; y@y.com</td>
+                <td>(16)55663833</td>
+                <td>Computação, Biologia Computacional; Inteliggência Artificial</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>YYYY</td>
+                <td>01/01/10</td>
+                <td>F</td>
+                <td>z@z.com; tttt@uuuu.com</td>
+                <td>(16)87697765</td>
+                <td>Medicina; Fisioterapia; Ginástica</td>
+            </tr>        
+        </table>
+    </article>
+    <footer>
+        <h3>Desenvolvido por Victor Lopes de Oliveira, Aluno INW- Sergio (2022.2)</h3>
+    </footer>
+</body>
+
+</html>
